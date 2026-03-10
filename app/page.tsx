@@ -3,15 +3,17 @@ import PropertyBuddyNoida from './component/ui/propertybuddynoida/PropertyBuddyN
 import Contactus from './component/ui//contactus//Contactus'
 import Footer from './component/Footer'
 import CustomerReview from './component/ui/costumerrevies/costumerReview'
+import ContactUsUpperPart from './component/ui/contactusupperpart/ContactUsUpperPart'
 export default function Home() {
   return (
     <>
       <Carousel />
       <PropertyBuddyNoida/>
       <Contactus/>
+      <ContactUsUpperPart/>
       <CustomerReview/>
       <Footer/>
-
+      
     </>
   );
 }

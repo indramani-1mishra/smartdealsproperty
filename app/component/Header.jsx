@@ -28,8 +28,8 @@ const navLinks = [
     ],
   },
   {
-    label: 'Blog',
-    href: '/blog',
+    label: 'about',
+    href: '/about',
   },
   {
     label: 'Career',
