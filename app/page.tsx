@@ -1,7 +1,7 @@
 import Carousel from './component/ui/crousel'
 import PropertyBuddyNoida from './component/ui/propertybuddynoida/PropertyBuddyNoida'
 import Contactus from './component/ui//contactus//Contactus'
-import Footer from './component/Footer'
+
 import CustomerReview from './component/ui/costumerrevies/costumerReview'
 import ContactUsUpperPart from './component/ui/contactusupperpart/ContactUsUpperPart'
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
       <Contactus/>
       <ContactUsUpperPart/>
       <CustomerReview/>
-      <Footer/>
+      
       
     </>
   );

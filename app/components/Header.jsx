@@ -22,9 +22,9 @@ const navLinks = [
   {
     label: 'Properties',
     dropdown: [
-      { label: 'Residential', href: '/products/residential' },
-      { label: 'Commercial', href: '/products/commercial' },
-      { label: 'Plot', href: '/products/plot' },
+      { label: 'Residential', href: '/properties/residential' },
+      { label: 'Commercial', href: '/properties/commercial' },
+      { label: 'Plot', href: '/properties/plot' },
     ],
   },
   {

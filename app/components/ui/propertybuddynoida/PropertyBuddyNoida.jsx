@@ -14,7 +14,7 @@ const properties = [
     location: 'Greater Noida',
     title: 'Godrej Avenue 9 Sector 27 Greater Noida',
     area: '400-600-1000 Sq.ft.',
-    href: '/products/noida',
+    href: '/properties/godrej-avenue9',
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const properties = [
     location: 'Noida',
     title: 'Experion Elements Noida',
     area: '2975-3530 Sq.ft.',
-     href: '/products/noida',
+    href: '/properties/experion-elements',
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const properties = [
     location: 'Greater Noida West',
     title: 'Godrej Majesty Sector 12 Greater Noida West',
     area: '1754-2503-2799 Sq.ft.',
-    href: '/products/noida',
+    href: '/properties/godrej-majesty',
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const properties = [
     location: 'Noida',
     title: 'Luxury Villa Sector 150 Noida',
     area: '3200-4500 Sq.ft.',
-   href: '/products/noida',
+    href: '/properties/luxury-villa',
   },
   {
     id: 5,
@@ -58,7 +58,7 @@ const properties = [
     location: 'Greater Noida',
     title: 'Premium Commercial Space Greater Noida',
     area: '500-1000-2000 Sq.ft.',
-    href: '/products/noida',
+    href: '/properties/commercial-space',
   },
   {
     id: 6,
@@ -69,7 +69,7 @@ const properties = [
     location: 'Yamuna Expressway',
     title: 'Modern Apartments Yamuna Expressway',
     area: '1200-1800-2400 Sq.ft.',
-    href: '/products/noida',
+    href: '/properties/modern-apartments',
   },
 ];
 

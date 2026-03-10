@@ -3,14 +3,15 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import { Grid, List } from 'lucide-react';
-import PropertyGrid from '@/components/PropertyGrid';
-import FilterSidebar from '@/components/FilterSidebar';
-import ContactForm from '@/components/ContactForm';
+import PropertyGrid from '../../components/PropertyGrid';
+import FilterSidebar from '../../components/FilterSidebar';
+import ContactForm from '../../components/ContactForm';
+import { useRouter } from 'next/navigation';
 
 export default function PropertyCityPage() {
   const params = useParams();
   const city = params?.city || 'noida';
-
+  const router = useRouter();
   const [properties, setProperties] = useState([]);
   const [filteredProperties, setFilteredProperties] = useState([]);
   const [viewMode, setViewMode] = useState('grid'); // 'grid' or 'list'
@@ -21,7 +22,7 @@ export default function PropertyCityPage() {
   const dummyProperties = [
     {
       id: 1,
-      image: '/images/property1.jpg',
+      image: '/propertyimage/propertyimage.webp',
       title: 'Experion Sector 151',
       location: 'Noida Sector 151',
       priceLabel: '₹On Request',
@@ -31,7 +32,7 @@ export default function PropertyCityPage() {
     },
     {
       id: 2,
-      image: '/images/property2.jpg',
+      image: '/propertyimage/propertyimage.webp',
       title: 'Godrej Riverine Noida',
       location: 'Sec 44 Noida',
       priceLabel: '₹7.99 Cr*',
@@ -41,7 +42,7 @@ export default function PropertyCityPage() {
     },
     {
       id: 3,
-      image: '/images/property3.jpg',
+       image: '/propertyimage/propertyimage.webp',
       title: 'Experion Elements Noida',
       location: 'Noida sec 45',
       priceLabel: '₹6.50-7.69 Cr*',
@@ -51,7 +52,7 @@ export default function PropertyCityPage() {
     },
     {
       id: 4,
-      image: '/images/property4.jpg',
+       image: '/propertyimage/propertyimage.webp',
       title: 'M3M Cullinan Noida',
       location: 'Sector 94 Noida',
       priceLabel: '₹9.28-18.04 Cr*',
@@ -132,7 +133,9 @@ export default function PropertyCityPage() {
   const handlePropertyClick = (property) => {
     console.log('Property clicked:', property);
     // Navigate to property details page
-    // router.push(`/property/${property.id}`);
+router.push(
+  `/properties/${property?.title.trim().replace(/\s+/g, "-").toLowerCase()}`
+);
   };
 
   // Handle contact form submit
@@ -160,7 +163,7 @@ export default function PropertyCityPage() {
       >
         <div className="max-w-7xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold">
-            Property City: {city.charAt(0).toUpperCase() + city.slice(1)}
+            Property info: {city.charAt(0).toUpperCase() + city.slice(1)}
           </h1>
         </div>
       </div>
