@@ -1,6 +1,6 @@
-import ContactUsUpperPart from '../component/ui/contactusupperpart/ContactUsUpperPart'
-import CustomerReview from '../component/ui/costumerrevies/costumerReview'
-import Contactus from '../component/ui/contactus/Contactus'
+import ContactUsUpperPart from '../components/ui/contactusupperpart/ContactUsUpperPart'
+import CustomerReview from '../components/ui/costumerrevies/costumerReview'
+import Contactus from '../components/ui/contactus/Contactus'
 export default function page(){
     return(
         <>

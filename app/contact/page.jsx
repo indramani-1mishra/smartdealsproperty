@@ -1,7 +1,8 @@
 import React from 'react'
-import ContactUsUpperPart from '../component/ui/contactusupperpart/ContactUsUpperPart'
-import Contactus from '../component/ui/contactus/Contactus'
-import CustomerReview from '../component/ui/costumerrevies/costumerReview'
+import ContactUsUpperPart from '../components/ui/contactusupperpart/ContactUsUpperPart'
+import Contactus from '../components/ui/contactus/Contactus'
+import CustomerReview from '../components/ui/costumerrevies/costumerReview'
+//import CustomerReview from '../components/ui/costumerrevies/costumerReview'
 export default function page() {
   return (
     <>

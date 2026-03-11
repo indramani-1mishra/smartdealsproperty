@@ -1,9 +1,9 @@
-import Carousel from './component/ui/crousel'
-import PropertyBuddyNoida from './component/ui/propertybuddynoida/PropertyBuddyNoida'
-import Contactus from './component/ui//contactus//Contactus'
+import Carousel from './components/ui/crousel'
+import PropertyBuddyNoida from './components/ui/propertybuddynoida/PropertyBuddyNoida'
+import Contactus from './components/ui//contactus//Contactus'
 
-import CustomerReview from './component/ui/costumerrevies/costumerReview'
-import ContactUsUpperPart from './component/ui/contactusupperpart/ContactUsUpperPart'
+import CustomerReview from './components/ui/costumerrevies/costumerReview'
+import ContactUsUpperPart from './components/ui/contactusupperpart/ContactUsUpperPart'
 export default function Home() {
   return (
     <>
