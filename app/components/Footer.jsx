@@ -9,9 +9,9 @@ const companyLinks = [
   { label: 'About Us', href: '/about' },
   { label: 'Contact Us', href: '/contact' },
   { label: 'Blog', href: '/blog' },
-  { label: 'Property in Noida', href: '/city/noida' },
-  { label: 'Property in Greater Noida', href: '/city/greater-noida' },
-  { label: 'Property in Greater Noida West', href: '/city/greater-noida-west' },
+  { label: 'Property in Noida', href: '/products/noida' },
+  { label: 'Property in Greater Noida', href: '/products/greater-noida' },
+  { label: 'Property in Greater Noida West', href: '/products/greater-noida-west' },
 ];
 
 const quickLinks = [
@@ -24,12 +24,12 @@ const quickLinks = [
 ];
 
 const popularSearch = [
-  { label: 'Noida', href: '/city/noida' },
-  { label: 'Greater Noida', href: '/city/greater-noida' },
-  { label: 'Greater Noida West', href: '/city/greater-noida-west' },
-  { label: 'Ghaziabad', href: '/city/ghaziabad' },
-  { label: 'Yamuna Expressway', href: '/city/yamuna-expressway' },
-  { label: 'Godrej Arden Greater Noida', href: '/properties/godrej-arden' },
+  { label: 'Noida', href: '/products/noida' },
+  { label: 'Greater Noida', href: '/products/greater-noida' },
+  { label: 'Greater Noida West', href: '/products/greater-noida-west' },
+  { label: 'Ghaziabad', href: '/products/ghaziabad' },
+  { label: 'Yamuna Expressway', href: '/products/yamuna-expressway' },
+  { label: 'Godrej Arden Greater Noida', href: '/products/godrej-arden' },
 ];
 
 const socialLinks = [
